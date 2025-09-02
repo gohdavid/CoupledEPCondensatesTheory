@@ -1,8 +1,8 @@
 # Theoretical calculations of condensate velocity
 
-These notebooks are used to calculate the condensate velocity from theory. The `Fig_1C_CSV.ipynb` notebook uses Python, whereas `Fig_2B-4B.ipynb` and `Fig_S2-S3-S5-S6.ipynb` uses Julia.
+These notebooks are used to calculate the condensate velocity from theory. The `Fig_1C_CSV.ipynb` notebook uses Python, whereas `Fig_2B.ipynb`, `Fig_4B.ipynb`, and `Fig_S2-S3-S5-S6.ipynb` uses Julia.
 
-First, run `Fig_1C_CSV.ipynb` to generate `flow_stats.csv` and `flow_stats_100.csv` files. Then, use the following code in `Fig_2B-4B.ipynb` to insert analytical calculations into `flow_stats_100.csv`. Only then can you make the analytical velocity plots in the Python notebook `Fig_1C_CSV.ipynb`.
+First, run `Fig_1C_CSV.ipynb` to generate `flow_stats.csv` and `flow_stats_100.csv` files. Then, use the following code in `Fig_4B.ipynb` to insert analytical calculations into `flow_stats_100.csv`. Only then can you make the analytical velocity plots in the Python notebook `Fig_1C_CSV.ipynb`.
 
 ```
 Threads.@threads for stats in glob("20240224_FlowPhaseDiagramHighRes/*/flow_stats_100.csv")
