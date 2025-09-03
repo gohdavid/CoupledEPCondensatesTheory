@@ -15,3 +15,15 @@ Threads.@threads for stats in glob("20240224_FlowPhaseDiagramHighRes/*/flow_stat
     print("Done. ")
 end
 ```
+
+## Jupyter Notebooks
+| Figure | Notebook |
+| - | - |
+| Fig. 1C | `Theory/Fig_1C_CSV.ipynb` |
+| Fig. 2B | `Theory/Fig_2B-S6-S7-S9-S10.ipynb` |
+| Fig. 4B | `Theory/Fig_4B.ipynb` |
+| Fig. S4 | `Theory/Fig_S4.ipynb` |
+| Fig. S6 | `Theory/Fig_2B-S6-S7-S9-S10.ipynb` |
+| Fig. S7 | `Theory/Fig_2B-S6-S7-S9-S10.ipynb` |
+| Fig. S9 | `Theory/Fig_2B-S6-S7-S9-S10.ipynb` |
+| Fig. S10 | `Theory/Fig_2B-S6-S7-S9-S10.ipynb` |
